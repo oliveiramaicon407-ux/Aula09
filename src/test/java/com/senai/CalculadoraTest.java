@@ -21,7 +21,7 @@ public class CalculadoraTest {
     @Test
     void testDivisao() {
         Calculadora calculadora = new Calculadora();
-        int resultado = calculadora.dividir(6, 2);
+        double resultado = calculadora.divisao(6, 2);
         assertEquals(3, resultado);
     }
 }
