@@ -7,14 +7,16 @@ public class CalculadoraTest {
     @Test
     void testSomar() {
         Calculadora calculadora = new Calculadora();
-        int resultado = calculadora.somar(2, 3);
+        // Alterado de int para double
+        double resultado = calculadora.somar(2, 3); 
         assertEquals(5, resultado);
     }
 
     @Test
     void testMultiplicacao() {
         Calculadora calculadora = new Calculadora();
-        int resultado = calculadora.multiplicacao(3, 2);
+        // Alterado de int para double
+        double resultado = calculadora.multiplicacao(3, 2); 
         assertEquals(6, resultado);
     }
 
@@ -25,6 +27,3 @@ public class CalculadoraTest {
         assertEquals(3, resultado);
     }
 }
-
-
-
